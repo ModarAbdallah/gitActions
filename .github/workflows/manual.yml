@@ -1,5 +1,6 @@
 name: manual
-  workflow-dispatch:
+on:
+  workflow_dispatch:
     inputs: 
       environment:
         description: "choose environment"
@@ -14,6 +15,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      -name: deploy application
-       run: echo "Deploy appliction to ${{environment}}"
-       
+      - name: deploy application
+        run: echo "Deploying application to ${{ github.event.inputs.environment }}"
