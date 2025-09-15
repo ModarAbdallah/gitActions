@@ -1,0 +1,54 @@
+#this line defines user name
+name: Modar
+
+age : 22
+salary: 2000
+is_active: true
+empolyement_date: 2026-1-1T13:30:00z
+direct_manager: Mustafa
+
+sirial_number: "0050"
+
+message: "Hello\nModar"
+#Hello
+#Modar
+
+path: "C:\\users\\Modar"
+qoute: "It's Yaml"
+
+sMessage: 'Hello\nMdar' #Hello\nModar
+sPath: 'C:\users\Modar' #C:\usrs\Modar
+sQuote: 'It''s Yaml'
+
+long_message: |
+  Hello
+  I'm
+  Modar
+
+#Hello
+#I'm
+#Modar
+
+long_message2: >
+  Hello
+  I'm
+  Modar 
+#Hello I'm Modar
+
+#Map
+
+employee : 
+  name: "Modar"
+  age: 22
+  contact:
+    email: modarabdallah630@gmail.com
+
+emplyees:
+  - name: Modar
+    age: 30
+    contact:
+      email: modarabdallah630@gmail.com
+  - name: Ali
+    age: 22
+    contact:
+      email: mod@gmail.com
