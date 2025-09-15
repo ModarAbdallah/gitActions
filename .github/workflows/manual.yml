@@ -1,5 +1,5 @@
 name: manual
-  workflow-dispatch:
+  workflow_dispatch:
     inputs: 
       environment:
         description: "choose environment"
